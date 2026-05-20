@@ -96,40 +96,40 @@ Cariño, no soporto estar sin ti, pero parece que tú sí
     {
   title: 'Truco Barato',
   image: '/foto3.jpeg',
-  lyric: `Nos conocimos poco y fue un montón,
-miradas largas, noches sin reloj,
-yo te creí incluso cuando dudé,
-vos ya sabías cómo desaparecer.
+  lyric: `Nos conocimos poco y fue un montón
+miradas largas, noches sin reloj
+yo te creí incluso cuando dudé
+vos ya sabías cómo desaparecer
 
-Después el eco azul del celular,
-tu nombre fijo, nada que explicar,
-yo repasando qué hice mal,
-vos dominando el arte de no estar.
+Después el eco azul del celular
+tu nombre fijo, nada que explicar
+yo repasando qué hice mal
+vos dominando el arte de no estar
 
-Te fuiste sin ruido, sin voz,
-como un truco barato de amor,
-no dolió que no me quieras,
-odio tu manera de decir adiós.
+Te fuiste sin ruido, sin voz
+como un truco barato de amor
+no dolió que no me quieras
+odio tu manera de decir adiós
 
-Pantalla en negro, corazón,
-yo creyendo y vos no,
-no fue el amor lo que se apagó,
-fue tu forma de decir que no.
+Pantalla en negro, corazón
+yo creyendo y vos no
+no fue el amor lo que se apagó
+fue tu forma de decir que no
 
-Te fuiste sin ruido, sin voz,
-como un truco barato de amor,
-no dolió que no me quieras,
-odio tu manera de decir adiós.
+Te fuiste sin ruido, sin voz
+como un truco barato de amor
+no dolió que no me quieras
+odio tu manera de decir adiós
 
-No sé si fue mi inocencia,
-o tu talento por la mentira.
+No sé si fue mi inocencia
+o tu talento por la mentira
 Pero no se juega así
-con quien se anima a creer.
+con quien se anima a creer
 
-Te fuiste sin ruido, sin voz,
-como un truco barato de amor,
-no dolió que no me quieras,
-odio tu manera de decir adiós.`,
+Te fuiste sin ruido, sin voz
+como un truco barato de amor
+no dolió que no me quieras
+odio tu manera de decir adiós`,
 },
     {
       title: 'Tarde',
@@ -144,8 +144,6 @@ Las veredas cierran antes de tiempo
 las luces ensayan su final
 yo siempre entrando por la puerta
 cuando el mundo aprende a cerrar
-
-Coro
 
 Y siempre llego tarde, tarde cuando ya pasó lo mejor
 tarde como llegan los trenes que no esperan al corazón
@@ -163,9 +161,11 @@ con el invierno ya instalado
 yo traía besos vencidos
 y vos el amor empaquetado
 
-Coro
-
-Puente
+Y siempre llego tarde, tarde cuando ya pasó lo mejor
+tarde como llegan los trenes que no esperan al corazón
+Siempre llego tarde, tarde pero temprano al error
+si me esperás cinco minutos
+llego... pero llego con dolor
 
 Si un día me ves llegar temprano
 no confíes en mi puntualidad
@@ -176,44 +176,48 @@ de no llegar tarde a amar`,
       title: 'Tu Risa Tierna en Inglés',
       image: '/foto5.jpeg',
       lyric:
-        `La noche se terminó,
+        `La noche se terminó
 caminaba dando vueltas
 por esa esquina de amor
 donde aprendimos a hablar
 otro idioma, en otro lugar
 
 La ciudad nos vio pasar
-sin saber lo que escondía,
+sin saber lo que escondía
 éramos tiempo prestado
 fingiendo que no dolía
 
-Pre-Coro
-
-Tus manos, tu risa,
-me acuerdo y muero de amor,
-fue tan corto, tan nuestro,
+Tus manos, tu risa
+me acuerdo y muero de amor
+fue tan corto, tan nuestro
 fue tan real que dolió soltar
 
-Coro
-
-Y hoy volvimos a la rutina,
-Ese lugar que nos domina,
+Y hoy volvimos a la rutina
+Ese lugar que nos domina
 miles de kilómetros atrás
 tu voz me vuelve a buscar
 
 Tu risa tierna en inglés
-me enloquecía sin razón,
+me enloquecía sin razón
 no entendía las palabras
 pero sí la intención
 
 Na Na Na naaa
 
-Fue fugaz, fue inevitable,
-fue tan lejos y tan acá,
-si el tiempo nos separó,
+Fue fugaz, fue inevitable
+fue tan lejos y tan acá
+si el tiempo nos separó
 el amor no se quiso bajar
 
-Coro
+Y hoy volvimos a la rutina
+Ese lugar que nos domina
+miles de kilómetros atrás
+tu voz me vuelve a buscar
+
+Tu risa tierna en inglés
+me enloquecía sin razón
+no entendía las palabras
+pero sí la intención
 
 Na Na Na naaa`,
 },
@@ -269,87 +273,90 @@ Amor completo`,
       title: 'Luces de Neón',
   image: '/foto1.jpeg',
   lyric: `Se apagan las luces de neón
-que un día encendí,
-tu voz en mi mente no quiere salir,
-promesas que el viento decidió llevar,
-y yo acá, juntando pedazos de amor.
+que un día encendí
+tu voz en mi mente no quiere salir
+promesas que el viento decidió llevar
+y yo acá, juntando pedazos de amor
 
-Jugaste con mis miedos y mi debilidad,
-tus besos sabían a eternidad.
+Jugaste con mis miedos y mi debilidad
+tus besos sabían a eternidad
 
-Coro
+Duele, mirar atrás y entender la verdad
+Duele, que todo era un disfraz de falsedad
+Quizás es temprano para decidir
+si quedarme una noche más o huir
+Aunque el alma esté rota, me cuesta admitir
+que amarte tanto fue dejarme morir
 
-Duele, mirar atrás y entender la verdad.
-Duele, que todo era un disfraz de falsedad.
-Quizás es temprano para decidir,
-si quedarme una noche más o huir.
-Aunque el alma esté rota, me cuesta admitir,
-que amarte tanto fue dejarme morir.
+Las horas no pasan
+se clavan en mí
+tu sombra en la cama no quiere morir
+te pienso en las cosas más simples, amor
+y todo me duele con más intensidad
 
-Las horas no pasan,
-se clavan en mí,
-tu sombra en la cama no quiere morir,
-te pienso en las cosas más simples, amor,
-y todo me duele con más intensidad.
+Fui ciego creyendo en tu claridad
+armando un futuro de pura ilusión
+y ahora camino sin dirección
+con el corazón hecho desilusión
 
-Fui ciego creyendo en tu claridad,
-armando un futuro de pura ilusión,
-y ahora camino sin dirección,
-con el corazón hecho desilusión.
+Duele, mirar atrás y entender la verdad
+Duele, que todo era un disfraz de falsedad
+Quizás es temprano para decidir
+si quedarme una noche más o huir
+Aunque el alma esté rota, me cuesta admitir
+que amarte tanto fue dejarme morir
 
-Coro
+Tal vez algún día logre soltar
+las huellas que dejaste al marchar
+pero hoy me abrazo a este dolor
+porque es lo único que queda de vos
 
-Puente
-
-Tal vez algún día logre soltar,
-las huellas que dejaste al marchar,
-pero hoy me abrazo a este dolor,
-porque es lo único que queda de vos.
-
-Coro`,
+Duele, mirar atrás y entender la verdad
+Duele, que todo era un disfraz de falsedad
+Quizás es temprano para decidir
+si quedarme una noche más o huir
+Aunque el alma esté rota, me cuesta admitir
+que amarte tanto fue dejarme morir`,
 },
       {
       title: 'Bendita Perdición',
   image: '/foto8.jpeg',
-  lyric: `Te di mis horas malas, mis domingos rotos,
-mi forma torpe de creer.
+  lyric: `Te di mis horas malas, mis domingos rotos
+mi forma torpe de creer
 
-Te abrí la puerta justo cuando juré no volver a perder.
-Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez,
-y en ese juego tan injusto siempre perdía el que quería bien.
+Te abrí la puerta justo cuando juré no volver a perder
+Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez
+y en ese juego tan injusto siempre perdía el que quería bien
 
-Me hice valiente para mirarte, aunque sabía el final,
-porque el miedo nunca fue excusa para dejar de intentar.
-Amar no fue el error, lo sé, el error fue quedarme de más,
-confundir migajas con promesas y el frío con paz.
+Me hice valiente para mirarte, aunque sabía el final
+porque el miedo nunca fue excusa para dejar de intentar
+Amar no fue el error, lo sé, el error fue quedarme de más
+confundir migajas con promesas y el frío con paz
 
-Coro
+Porque el único que sale ileso al amor es aquel que nunca amó
+el que nunca puso el alma ni tembló de emoción
+Yo prefiero esta herida abierta a vivir con el corazón en prisión
+si amar es perderse entero, bendita sea la perdición
 
-Porque el único que sale ileso al amor es aquel que nunca amó,
-el que nunca puso el alma ni tembló de emoción.
-Yo prefiero esta herida abierta a vivir con el corazón en prisión,
-si amar es perderse entero, bendita sea la perdición.
-
-Te di mis horas malas, mis domingos rotos, mi forma torpe de querer.
-Te abrí la puerta justo cuando juré no volver a perder.
-Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez,
+Te di mis horas malas, mis domingos rotos, mi forma torpe de querer
+Te abrí la puerta justo cuando juré no volver a perder
+Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez
 y en ese juego tan injusto siempre perdía...
 
-Coro
+Porque el único que sale ileso al amor es aquel que nunca amó
+el que nunca puso el alma ni tembló de emoción
+Yo prefiero esta herida abierta a vivir con el corazón en prisión
+si amar es perderse entero, bendita sea la perdición
 
-Porque el único que sale ileso al amor es aquel que nunca amó,
-el que nunca puso el alma ni tembló de emoción.
-Yo prefiero esta herida abierta a vivir con el corazón en prisión,
-si amar es perderse entero, bendita sea la perdición.
-
-Puente
-
-No me arrepiento del miedo,
-ni del temblor en la voz,
+No me arrepiento del miedo
+ni del temblor en la voz
 hay derrotas que salvan
-y amores que enseñan quién sos.
+y amores que enseñan quién sos
 
-Coro`,
+Porque el único que sale ileso al amor es aquel que nunca amó
+el que nunca puso el alma ni tembló de emoción
+Yo prefiero esta herida abierta a vivir con el corazón en prisión
+si amar es perderse entero, bendita sea la perdición`,
 },
 ]
 
@@ -369,6 +376,8 @@ Coro`,
             Pablo
             <br />
             Navarro
+            <br />
+            <span style={styles.smallTitle}>Show</span>
             <br />
             Acústico
           </h1>
@@ -498,6 +507,12 @@ const globalStyles = `
 `
 
 const styles = {
+  smallTitle: {
+  display: 'block',
+  fontSize: '0.38em',
+  letterSpacing: '0.25em',
+  marginBottom: '8px',
+  },
   page: {
     minHeight: '100vh',
     background: 'linear-gradient(180deg, #050505 0%, #080808 100%)',
@@ -565,6 +580,12 @@ const styles = {
     color: '#d3564a',
   },
   value: {
+  fontFamily: 'Georgia, serif',
+  fontStyle: 'italic',
+  fontWeight: 300,
+  fontSize: 'clamp(1.5rem, 2.8vw, 2.2rem)',
+  lineHeight: 1,
+},
     fontSize: 'clamp(1.5rem, 2.8vw, 2.2rem)',
     lineHeight: 1,
   },
