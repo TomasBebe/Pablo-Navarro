@@ -10,16 +10,89 @@ export default function PabloNavarroLanding() {
   const songs = [
     {
       title: 'Corazón Partío',
-      image: '/foto1.jpeg',
+      image: '/foto7.jpeg',
       lyric:
-        'Ya lo ves, que no hay dos sin tres Que la vida va y viene y que no se detiene Y, qué sé yo Pero miénteme, aunque sea dime que algo queda entre nosotros dos Que en tu habitación nunca sale el sol Ni existe el tiempo ni el dolor Llévame si quieres a perder A ningún destino, sin ningún por qué Ya lo sé, que corazón que no ve Es corazón que no siente O corazón que te miente amor Pero, sabes que en lo más profundo de mi alma Sigue aquel dolor por creer en ti ¿Qué fue de la ilusión y de lo bello que es vivir? Para qué me curaste cuando estaba herido Si hoy me dejas de nuevo el corazón partió Coro ¿Y quién me va a entregar sus emociones? ¿Quién me va a pedir que nunca le abandone? ¿Quién me tapará esta noche si hace frío? ¿Quién me va a curar el corazón partió? ¿Quién llenará de primaveras este enero Y bajará la luna para que juguemos? Dime, si tú te vas, dime cariño mío ¿Quién me va a curar el corazón partió? Quién me va a curar Dar solamente aquello que te sobra Nunca fue compartir, sino dar limosna, amor Si no lo sabes tú, te lo digo yo Después de la tormenta siempre llega la calma Pero, sé que después de ti Después de ti no hay nada Para qué me curaste cuando estaba herido Si hoy me dejas de nuevo con el corazón partió ',
-    },
+        `Ya lo ves, que no hay dos sin tres
+Que la vida va y viene y que no se detiene
+Y, qué sé yo
+Pero miénteme, aunque sea dime que algo queda entre nosotros dos
+Que en tu habitación nunca sale el sol
+Ni existe el tiempo ni el dolor
+Llévame si quieres a perder
+A ningún destino, sin ningún por qué
+  
+Ya lo sé, que corazón que no ve
+Es corazón que no siente
+O corazón que te miente amor
+Pero, sabes que en lo más profundo de mi alma
+Sigue aquel dolor por creer en ti
+¿Qué fue de la ilusión y de lo bello que es vivir?
+Para qué me curaste cuando estaba herido
+Si hoy me dejas de nuevo el corazón partió
+  
+¿Y quién me va a entregar sus emociones?
+¿Quién me va a pedir que nunca le abandone?
+¿Quién me tapará esta noche si hace frío?
+¿Quién me va a curar el corazón partió?
+¿Quién llenará de primaveras este enero
+Y bajará la luna para que juguemos?
+Dime, si tú te vas, dime cariño mío
+¿Quién me va a curar el corazón partió?
+Quién me va a curar
+  
+Dar solamente aquello que te sobra
+Nunca fue compartir, sino dar limosna, amor
+Si no lo sabes tú, te lo digo yo
+Después de la tormenta siempre llega la calma
+Pero, sé que después de ti
+Después de ti no hay nada
+Para qué me curaste cuando estaba herido
+Si hoy me dejas de nuevo con el corazón partió.`,
+  },
     {
       title: 'Un Osito de Peluche de Taiwán',
       image: '/foto2.jpeg',
       lyric:
-        'De repente no puedo respirar, necesito un poco de libertad... Un osito de peluche de Taiwán.',
-    },
+        `De repente no puedo respirar
+Necesito un poco de libertad
+Que te alejes por un tiempo de mi lado
+Que me dejes en paz
+
+Siempre fue mi manera de ser
+No me trates de comprender
+No hay nada que se pueda hacer
+Soy un poco paranoico, lo siento
+
+Al ratito ya te empiezo a extrañar
+Me preocupa que te pueda perder
+Necesito que te acerques a mí
+Para sentir el calor de tu cuerpo
+
+Un osito de peluche de Taiwán
+Una cascara de nuez en el mar
+Suavecito como alfombra de piel
+Delicioso como el dulce de leche.`,
+  },
+    {
+      title: 'Tu Misterioso Alguien',
+      image: '/foto9.jpeg',
+      lyric:
+        `Hay alguien en tu vida que está transformándote
+Hay alguien que ha cambiado en ti la forma en que te ves
+Hay alguien nuevo que se apareció y que tu corazón robó
+Ya lo sé, solo dime quién es
+
+¿Quién es tu nuevo amor, tu nueva ocupación, tu misterioso alguien?
+¿A quién has ocultado de mí todo el tiempo para no matarme?
+¿Quién es tu seductor, tu rey y tu peón?
+¿Quién ocupó el lugar que siempre ocupé yo?
+Tu misterioso alguien me robó
+
+Ahora te despiertas y preparas su café
+Desde que me he enterado, yo no puedo ni comer
+Cariño, no soporto estar sin ti, pero parece que tú sí
+¿Quién es él? Dime y lo mataré.`,
+   },
     {
   title: 'Truco Barato',
   image: '/foto3.jpeg',
@@ -33,8 +106,6 @@ tu nombre fijo, nada que explicar,
 yo repasando qué hice mal,
 vos dominando el arte de no estar.
 
-Coro
-
 Te fuiste sin ruido, sin voz,
 como un truco barato de amor,
 no dolió que no me quieras,
@@ -45,21 +116,15 @@ yo creyendo y vos no,
 no fue el amor lo que se apagó,
 fue tu forma de decir que no.
 
-Coro
-
 Te fuiste sin ruido, sin voz,
 como un truco barato de amor,
 no dolió que no me quieras,
 odio tu manera de decir adiós.
 
-Puente
-
 No sé si fue mi inocencia,
 o tu talento por la mentira.
 Pero no se juega así
 con quien se anima a creer.
-
-Coro
 
 Te fuiste sin ruido, sin voz,
 como un truco barato de amor,
@@ -70,21 +135,223 @@ odio tu manera de decir adiós.`,
       title: 'Tarde',
       image: '/foto4.jpeg',
       lyric:
-        'Siempre llego tarde, tarde cuando ya pasó lo mejor.',
+        `El día me queda grande en los hombros
+se me cae el tiempo al caminar
+los relojes me miran de costado
+como sabiendo que no voy a llegar
+
+Las veredas cierran antes de tiempo
+las luces ensayan su final
+yo siempre entrando por la puerta
+cuando el mundo aprende a cerrar
+
+Coro
+
+Y siempre llego tarde, tarde cuando ya pasó lo mejor
+tarde como llegan los trenes que no esperan al corazón
+Siempre llego tarde, tarde pero temprano al error
+si me esperás cinco minutos
+llego... pero llego con dolor
+
+Aplaudo desde afuera del ruido
+la canción ya se fue a dormir
+en oficinas que huelen a lunes
+mi nombre aprende a fingir
+
+A vos te encontré en otra estación
+con el invierno ya instalado
+yo traía besos vencidos
+y vos el amor empaquetado
+
+Coro
+
+Puente
+
+Si un día me ves llegar temprano
+no confíes en mi puntualidad
+seguro me perdí en el intento
+de no llegar tarde a amar`,
     },
     {
       title: 'Tu Risa Tierna en Inglés',
       image: '/foto5.jpeg',
       lyric:
-        'Tu risa tierna en inglés me enloquecía sin razón.',
-    },
+        `La noche se terminó,
+caminaba dando vueltas
+por esa esquina de amor
+donde aprendimos a hablar
+otro idioma, en otro lugar
+
+La ciudad nos vio pasar
+sin saber lo que escondía,
+éramos tiempo prestado
+fingiendo que no dolía
+
+Pre-Coro
+
+Tus manos, tu risa,
+me acuerdo y muero de amor,
+fue tan corto, tan nuestro,
+fue tan real que dolió soltar
+
+Coro
+
+Y hoy volvimos a la rutina,
+Ese lugar que nos domina,
+miles de kilómetros atrás
+tu voz me vuelve a buscar
+
+Tu risa tierna en inglés
+me enloquecía sin razón,
+no entendía las palabras
+pero sí la intención
+
+Na Na Na naaa
+
+Fue fugaz, fue inevitable,
+fue tan lejos y tan acá,
+si el tiempo nos separó,
+el amor no se quiso bajar
+
+Coro
+
+Na Na Na naaa`,
+},
     {
-      title: 'Bendita Perdición',
+      title: 'Amor Completo',
       image: '/foto6.jpeg',
       lyric:
-        'Si amar es perderse entero, bendita sea la perdición.',
+        `No, no hay nada mejor
+Que probar un primer beso, y más de ti
+Veo tantos colores y todos mis sentidos
+Estallarán de tanto amarte
+
+¿Cómo se puede sentir
+Tantas cosas en tan poco tiempo, y no morir?
+Tú puedes hacer un gran nido en mi universo
+Puedes hacer lo que quieras conmigo
+
+Yo siento que tú me querí
+Como yo te quiero
+Acuéstate a mi lado
+Esta noche te quiero vivir
+
+Arrúllame, ahógame, aplástame
+Desármame, cómeme y fúmame
+Amor inquieto
+Amor drogado
+Amor completo
+
+Oh
+Cada vez que yo
+Te veo y que te pienso
+Siento que florezco
+
+Me duele estar tan lejos
+No es fácil que no estés aquí
+Y aún así puedes hacer
+Lo que quieras de mí
+
+Yo siento que tú me querí
+Como yo te quiero
+Acuéstate a mi lado
+Esta noche te quiero vivir
+
+Arrúllame, ahógame, aplástame
+Desármame, cómeme y fúmame
+Amor inquieto
+Amor drogado
+Amor completo
+Amor inquieto
+Amor completo`,
     },
-  ]
+     {
+      title: 'Luces de Neón',
+  image: '/foto1.jpeg',
+  lyric: `Se apagan las luces de neón
+que un día encendí,
+tu voz en mi mente no quiere salir,
+promesas que el viento decidió llevar,
+y yo acá, juntando pedazos de amor.
+
+Jugaste con mis miedos y mi debilidad,
+tus besos sabían a eternidad.
+
+Coro
+
+Duele, mirar atrás y entender la verdad.
+Duele, que todo era un disfraz de falsedad.
+Quizás es temprano para decidir,
+si quedarme una noche más o huir.
+Aunque el alma esté rota, me cuesta admitir,
+que amarte tanto fue dejarme morir.
+
+Las horas no pasan,
+se clavan en mí,
+tu sombra en la cama no quiere morir,
+te pienso en las cosas más simples, amor,
+y todo me duele con más intensidad.
+
+Fui ciego creyendo en tu claridad,
+armando un futuro de pura ilusión,
+y ahora camino sin dirección,
+con el corazón hecho desilusión.
+
+Coro
+
+Puente
+
+Tal vez algún día logre soltar,
+las huellas que dejaste al marchar,
+pero hoy me abrazo a este dolor,
+porque es lo único que queda de vos.
+
+Coro`,
+},
+      {
+      title: 'Bendita Perdición',
+  image: '/foto8.jpeg',
+  lyric: `Te di mis horas malas, mis domingos rotos,
+mi forma torpe de creer.
+
+Te abrí la puerta justo cuando juré no volver a perder.
+Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez,
+y en ese juego tan injusto siempre perdía el que quería bien.
+
+Me hice valiente para mirarte, aunque sabía el final,
+porque el miedo nunca fue excusa para dejar de intentar.
+Amar no fue el error, lo sé, el error fue quedarme de más,
+confundir migajas con promesas y el frío con paz.
+
+Coro
+
+Porque el único que sale ileso al amor es aquel que nunca amó,
+el que nunca puso el alma ni tembló de emoción.
+Yo prefiero esta herida abierta a vivir con el corazón en prisión,
+si amar es perderse entero, bendita sea la perdición.
+
+Te di mis horas malas, mis domingos rotos, mi forma torpe de querer.
+Te abrí la puerta justo cuando juré no volver a perder.
+Yo puse el cuerpo, vos el silencio, yo puse fe, vos el tal vez,
+y en ese juego tan injusto siempre perdía...
+
+Coro
+
+Porque el único que sale ileso al amor es aquel que nunca amó,
+el que nunca puso el alma ni tembló de emoción.
+Yo prefiero esta herida abierta a vivir con el corazón en prisión,
+si amar es perderse entero, bendita sea la perdición.
+
+Puente
+
+No me arrepiento del miedo,
+ni del temblor en la voz,
+hay derrotas que salvan
+y amores que enseñan quién sos.
+
+Coro`,
+},
+]
 
   const heroStyle = {
     backgroundImage: "url('/foto1.jpeg')",
