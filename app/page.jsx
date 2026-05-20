@@ -374,14 +374,12 @@ si amar es perderse entero, bendita sea la perdición`,
 
         <div style={styles.heroContent}>
           <h1 style={styles.heroTitle}>
-            Pablo
-            <br />
-            Navarro
-            <br />
-            <span style={styles.smallTitle}>Show</span>
-            <br />
-            Acústico
-          </h1>
+  Pablo
+  <br />
+  Navarro
+  <br />
+  <span style={styles.smallTitle}>Show Acústico</span>
+</h1>
 
           <div style={styles.heroMeta}>
             <p>22 de Mayo · 20:30 HS</p>
@@ -586,9 +584,6 @@ const styles = {
   fontWeight: 300,
   fontSize: 'clamp(1.5rem, 2.8vw, 2.2rem)',
   lineHeight: 1,
-},
-    fontSize: 'clamp(1.5rem, 2.8vw, 2.2rem)',
-    lineHeight: 1,
   },
   gallerySection: {
     padding: 'clamp(26px, 5vw, 70px) clamp(18px, 4vw, 64px) 32px',
