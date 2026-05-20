@@ -8,7 +8,7 @@ export default function PabloNavarroLanding() {
     },
     {
       title: 'Un Osito de Peluche de Taiwán',
-      image: '/foto2.jpeg',
+      image: 'public/foto2.jpeg',
       lyric:
         'De repente no puedo respirar, necesito un poco de libertad... Un osito de peluche de Taiwán.',
     },
