@@ -443,5 +443,10 @@ const styles = {
     fontSize: 'clamp(1.7rem, 2.7vw, 2.6rem)',
     lineHeight: 1.08,
     color: '#e7ddd2',
+    whiteSpace: 'pre-wrap',
+    maxHeight: '42vh',
+    overflowY: 'auto',
+    paddingRight: '8px',
   },
 }
+
