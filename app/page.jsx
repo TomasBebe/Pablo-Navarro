@@ -161,6 +161,7 @@ export default function PabloNavarroLanding() {
           Pablo Navarro
         </h3>
 
+        
         <p className="serif-font text-zinc-400 text-xl mb-8">
           canciones para quedarse un rato más
         </p>
