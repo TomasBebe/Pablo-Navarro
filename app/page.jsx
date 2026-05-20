@@ -1,4 +1,12 @@
+"use client"
+
+import { useState } from 'react'
+
 export default function PabloNavarroLanding() {
+  const [activeSong, setActiveSong] = useState(null)
+
+  const spotifyUrl = 'https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq'
+
   const songs = [
     {
       title: 'Corazón Partío',
@@ -6,7 +14,6 @@ export default function PabloNavarroLanding() {
       lyric:
         '¿Y quién me va a entregar sus emociones? ¿Quién me va a pedir que nunca le abandone? ¿Quién me va a curar el corazón partío?',
     },
-    
     {
       title: 'Un Osito de Peluche de Taiwán',
       image: '/foto2.jpeg',
@@ -75,6 +82,16 @@ export default function PabloNavarroLanding() {
               <span style={styles.value}>@pabloezenav</span>
             </a>
 
+            <a
+              href={spotifyUrl}
+              target="_blank"
+              rel="noreferrer"
+              style={styles.linkBlock}
+            >
+              <span style={styles.label}>Spotify</span>
+              <span style={styles.value}>Escuchar</span>
+            </a>
+
             <div style={styles.linkBlock}>
               <span style={styles.label}>Alias</span>
               <span style={styles.value}>pabloezenavarro.mp</span>
@@ -93,17 +110,22 @@ export default function PabloNavarroLanding() {
 
         <div style={styles.grid}>
           {songs.map((song, index) => (
-            <article key={index} style={styles.card}>
+            <button
+              key={index}
+              type="button"
+              onClick={() => setActiveSong(song)}
+              style={{ ...styles.card, padding: 0, border: 'none', cursor: 'pointer' }}
+            >
               <div style={styles.imageWrap}>
                 <img src={song.image} alt={song.title} style={styles.image} />
                 <div style={styles.cardOverlay} />
                 <div style={styles.cardContent}>
                   <p style={styles.cardKicker}>Canción {index + 1}</p>
                   <h3 style={styles.cardTitle}>{song.title}</h3>
-                  <p style={styles.cardLyric}>“{song.lyric}”</p>
+                  <p style={styles.cardHint}>Click para ver la letra completa</p>
                 </div>
               </div>
-            </article>
+            </button>
           ))}
         </div>
       </section>
@@ -120,6 +142,26 @@ export default function PabloNavarroLanding() {
           @pabloezenav
         </a>
       </footer>
+
+      {activeSong && (
+        <div style={styles.modalBackdrop} onClick={() => setActiveSong(null)}>
+          <div style={styles.modal} onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              onClick={() => setActiveSong(null)}
+              style={styles.closeButton}
+              aria-label="Cerrar"
+            >
+              ×
+            </button>
+
+            <img src={activeSong.image} alt={activeSong.title} style={styles.modalImage} />
+            <p style={styles.modalKicker}>Canción completa</p>
+            <h3 style={styles.modalTitle}>{activeSong.title}</h3>
+            <p style={styles.modalLyric}>{activeSong.lyric}</p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -255,6 +297,8 @@ const styles = {
     border: '1px solid rgba(211, 86, 74, 0.22)',
     background: '#0a0909',
     boxShadow: '0 24px 60px rgba(0,0,0,0.28)',
+    width: '100%',
+    textAlign: 'left',
   },
   imageWrap: {
     position: 'relative',
@@ -291,7 +335,7 @@ const styles = {
     color: '#d3564a',
   },
   cardTitle: {
-    margin: '0 0 16px',
+    margin: '0 0 10px',
     fontFamily: 'Oswald, sans-serif',
     textTransform: 'uppercase',
     letterSpacing: '0.05em',
@@ -299,12 +343,10 @@ const styles = {
     lineHeight: 0.95,
     color: '#f4efe8',
   },
-  cardLyric: {
+  cardHint: {
     margin: 0,
-    fontSize: 'clamp(1.7rem, 2.4vw, 2.6rem)',
-    lineHeight: 1.08,
-    color: '#e7ddd2',
-    maxWidth: '18ch',
+    fontSize: '1.05rem',
+    color: '#c8b9ab',
   },
   footer: {
     borderTop: '1px solid rgba(255,255,255,0.06)',
@@ -336,5 +378,70 @@ const styles = {
     textTransform: 'uppercase',
     fontSize: '0.82rem',
     background: 'rgba(211, 86, 74, 0.08)',
+  },
+  modalBackdrop: {
+    position: 'fixed',
+    inset: 0,
+    background: 'rgba(0,0,0,0.78)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '20px',
+    zIndex: 50,
+  },
+  modal: {
+    position: 'relative',
+    width: 'min(860px, 100%)',
+    maxHeight: '90vh',
+    overflowY: 'auto',
+    borderRadius: '28px',
+    background: 'linear-gradient(180deg, #111 0%, #080808 100%)',
+    border: '1px solid rgba(211, 86, 74, 0.25)',
+    boxShadow: '0 30px 100px rgba(0,0,0,0.55)',
+    padding: '20px 20px 28px',
+  },
+  closeButton: {
+    position: 'absolute',
+    top: '14px',
+    right: '16px',
+    width: '42px',
+    height: '42px',
+    borderRadius: '999px',
+    border: '1px solid rgba(255,255,255,0.14)',
+    background: 'rgba(255,255,255,0.04)',
+    color: '#fff',
+    fontSize: '28px',
+    lineHeight: 1,
+    cursor: 'pointer',
+  },
+  modalImage: {
+    width: '100%',
+    height: '360px',
+    objectFit: 'cover',
+    borderRadius: '22px',
+    marginBottom: '18px',
+    display: 'block',
+  },
+  modalKicker: {
+    margin: '0 0 10px',
+    fontFamily: 'Oswald, sans-serif',
+    textTransform: 'uppercase',
+    letterSpacing: '0.22em',
+    fontSize: '0.78rem',
+    color: '#d3564a',
+  },
+  modalTitle: {
+    margin: '0 0 16px',
+    fontFamily: 'Oswald, sans-serif',
+    textTransform: 'uppercase',
+    fontSize: 'clamp(2rem, 4vw, 3.6rem)',
+    lineHeight: 0.95,
+    color: '#f4efe8',
+  },
+  modalLyric: {
+    margin: 0,
+    fontSize: 'clamp(1.7rem, 2.7vw, 2.6rem)',
+    lineHeight: 1.08,
+    color: '#e7ddd2',
   },
 }
