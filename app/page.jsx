@@ -6,6 +6,7 @@ export default function PabloNavarroLanding() {
       lyric:
         '¿Y quién me va a entregar sus emociones? ¿Quién me va a pedir que nunca le abandone? ¿Quién me va a curar el corazón partío?',
     },
+    
     {
       title: 'Un Osito de Peluche de Taiwán',
       image: '/foto2.jpeg',
