@@ -578,13 +578,15 @@ const styles = {
     textTransform: 'uppercase',
     color: '#d3564a',
   },
-  value: {
-  fontFamily: 'Georgia, serif',
+value: {
+  fontFamily: '"Cormorant Garamond", serif',
   fontStyle: 'italic',
   fontWeight: 300,
-  fontSize: 'clamp(1.5rem, 2.8vw, 2.2rem)',
+  letterSpacing: '0.02em',
+  fontSize: 'clamp(1.7rem, 3vw, 2.6rem)',
   lineHeight: 1,
-  },
+  color: '#f1e6dc',
+},
   gallerySection: {
     padding: 'clamp(26px, 5vw, 70px) clamp(18px, 4vw, 64px) 32px',
   },
