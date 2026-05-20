@@ -21,11 +21,51 @@ export default function PabloNavarroLanding() {
         'De repente no puedo respirar, necesito un poco de libertad... Un osito de peluche de Taiwán.',
     },
     {
-      title: 'Truco Barato',
-      image: '/foto3.jpeg',
-      lyric:
-        'Te fuiste sin ruido, sin voz, como un truco barato de amor.',
-    },
+  title: 'Truco Barato',
+  image: '/foto3.jpeg',
+  lyric: `Nos conocimos poco y fue un montón,
+miradas largas, noches sin reloj,
+yo te creí incluso cuando dudé,
+vos ya sabías cómo desaparecer.
+
+Después el eco azul del celular,
+tu nombre fijo, nada que explicar,
+yo repasando qué hice mal,
+vos dominando el arte de no estar.
+
+Coro
+
+Te fuiste sin ruido, sin voz,
+como un truco barato de amor,
+no dolió que no me quieras,
+odio tu manera de decir adiós.
+
+Pantalla en negro, corazón,
+yo creyendo y vos no,
+no fue el amor lo que se apagó,
+fue tu forma de decir que no.
+
+Coro
+
+Te fuiste sin ruido, sin voz,
+como un truco barato de amor,
+no dolió que no me quieras,
+odio tu manera de decir adiós.
+
+Puente
+
+No sé si fue mi inocencia,
+o tu talento por la mentira.
+Pero no se juega así
+con quien se anima a creer.
+
+Coro
+
+Te fuiste sin ruido, sin voz,
+como un truco barato de amor,
+no dolió que no me quieras,
+odio tu manera de decir adiós.`,
+},
     {
       title: 'Tarde',
       image: '/foto4.jpeg',
