@@ -416,10 +416,12 @@ si amar es perderse entero, bendita sea la perdición`,
         <div style={styles.sectionIntro}>
           <p style={styles.kicker}>Canciones</p>
           <h2 style={styles.sectionTitle}>
-            Nueve momentos.
-            Nueve heridas.
-            Nueve canciones.
-          </h2>
+  Nueve momentos.
+  <br />
+  Nueve heridas.
+  <br />
+  Nueve canciones.
+</h2>
         </div>
 
         <div style={styles.grid}>
