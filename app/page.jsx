@@ -377,8 +377,6 @@ si amar es perderse entero, bendita sea la perdición`,
   Pablo
   <br />
   Navarro
-  <br />
-  <span style={styles.smallTitle}>Show Acústico</span>
 </h1>
 
           <div style={styles.heroMeta}>
@@ -547,14 +545,14 @@ const styles = {
     textShadow: '0 8px 24px rgba(0,0,0,0.45)',
   },
   heroMeta: {
-  marginTop: '28px',
+  marginTop: '26px',
   display: 'grid',
   gap: '6px',
   fontFamily: 'Oswald, sans-serif',
-  letterSpacing: '0.18em',
+  letterSpacing: '0.32em',
   textTransform: 'uppercase',
-  fontSize: 'clamp(1rem, 2vw, 1.4rem)',
-  color: '#d9cec2',
+  fontSize: 'clamp(0.9rem, 1.5vw, 1.15rem)',
+  color: '#d7c9bb',
 },
   heroLinks: {
     marginTop: '34px',
