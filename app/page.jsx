@@ -479,8 +479,8 @@ si amar es perderse entero, bendita sea la perdición`,
 }
 
 const globalStyles = `
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Cormorant+Garamond:wght@300;400;500&family=Great+Vibes&display=swap');
-  * {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&family=Cormorant+Garamond:wght@300;400;500&display=swap');
+* {
     box-sizing: border-box;
   }
 
@@ -576,9 +576,9 @@ const styles = {
   },
 value: {
   fontFamily: '"Oswald", sans-serif',
-  fontWeight: 200,
-  letterSpacing: '0.08em',
-  fontSize: 'clamp(1.25rem, 2vw, 1.7rem)',
+  fontWeight: 300,
+  letterSpacing: '0.09em',
+  fontSize: 'clamp(1.2rem, 1.9vw, 1.55rem)',
   lineHeight: 1,
   color: '#f1e6dc',
 },
