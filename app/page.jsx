@@ -439,7 +439,6 @@ return (
 
 <section style={styles.gallerySection}>
       <div style={styles.sectionIntro}>
-        <p style={styles.kicker}>Canciones</p>
        <h2 style={styles.sectionTitle}>
   Una noche acústica.
   <br />
