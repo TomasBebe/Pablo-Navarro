@@ -431,9 +431,10 @@ return (
           <div style={styles.linkBlock}>
             <span style={styles.label}>Alias</span>
             <span style={styles.value}>pabloezenavarro.mp</span>
-</div>
-</div>
-</section>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <section style={styles.gallerySection}>
       <div style={styles.sectionIntro}>
