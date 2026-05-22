@@ -4,7 +4,7 @@
 import { useState } from 'react'
 
 export default function PabloNavarroLanding() {
-  const [activeSong, setActiveSong] = useState(null)
+  const [act iveSong, setActiveSong] = useState(null)
 
   const spotifyUrl = 'https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq'
 
@@ -576,9 +576,8 @@ const styles = {
   },
 value: {
   fontFamily: '"Cormorant Garamond", serif',
-  fontStyle: 'italic',
-  fontWeight: 300,
-  letterSpacing: '0.02em',
+  fontWeight: 400,
+  letterSpacing: '0.01em',
   fontSize: 'clamp(1.7rem, 3vw, 2.6rem)',
   lineHeight: 1,
   color: '#f1e6dc',
