@@ -362,193 +362,186 @@ si amar es perderse entero, bendita sea la perdición`,
 ]
 
   const heroStyle = {
-    backgroundImage: "url('/foto1.jpeg')",
-  }
+  backgroundImage: "url('/foto1.jpeg')",
+}
 
-  return (
-    <div style={styles.page}>
-      <style>{globalStyles}</style>
+return (
+  <div style={styles.page}>
+    <style>{globalStyles}</style>
 
-      <section style={{ ...styles.hero, ...heroStyle }}>
-        <div style={styles.heroOverlay} />
+    <section style={{ ...styles.hero, ...heroStyle }}>
+      <div style={styles.heroOverlay} />
 
-        <div style={styles.heroContent}>
-          <h1 style={styles.heroTitle}>
-  Pablo
-  <br />
-  Navarro
-</h1>
+      <div style={styles.heroContent}>
+        <h1 style={styles.heroTitle}>
+          Pablo
+          <br />
+          Navarro
+        </h1>
 
-<div style={styles.heroLinks}>
-  <a
-    href="https://instagram.com/pabloezenav"
-    target="_blank"
-    rel="noreferrer"
-    style={styles.iconLink}
-    aria-label="Instagram"
-  >
-    <svg
-      width="30"
-      height="30"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#f1e6dc"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      style={{ opacity: 0.9 }}
-    >
-      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-      <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z"></path>
-      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-    </svg>
-  </a>
+        <div style={styles.heroLinks}>
+          <a
+            href="https://instagram.com/pabloezenav"
+            target="_blank"
+            rel="noreferrer"
+            style={styles.iconLink}
+            aria-label="Instagram"
+          >
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#f1e6dc"
+              strokeWidth="1.6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{ opacity: 0.9 }}
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
 
-  <a
-    href="https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq"
-    target="_blank"
-    rel="noreferrer"
-    style={styles.iconLink}
-    aria-label="Spotify"
-  >
-    <svg
-      width="30"
-      height="30"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#f1e6dc"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      style={{ opacity: 0.9 }}
-    >
-      <circle cx="12" cy="12" r="10"></circle>
-      <path d="M8 15c2.5-1 5.5-.8 8 .5"></path>
-      <path d="M7 11.5c3-1 6.5-.8 10 1"></path>
-      <path d="M7 8.5c4-1.2 8.5-.8 12 1.5"></path>
-    </svg>
-  </a>
+          <a
+            href="https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq"
+            target="_blank"
+            rel="noreferrer"
+            style={styles.iconLink}
+            aria-label="Spotify"
+          >
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#f1e6dc"
+              strokeWidth="1.6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{ opacity: 0.9 }}
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 15c2.5-1 5.5-.8 8 .5"></path>
+              <path d="M7 11.5c3-1 6.5-.8 10 1"></path>
+              <path d="M7 8.5c4-1.2 8.5-.8 12 1.5"></path>
+            </svg>
+          </a>
 
-  <div style={styles.linkBlock}>
-    <span style={styles.label}>Alias</span>
-    <span style={styles.value}>pabloezenavarro.mp</span>
-  </div>
-</div>
+          <div style={styles.linkBlock}>
+            <span style={styles.label}>Alias</span>
+            <span style={styles.value}>pabloezenavarro.mp</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section style={styles.gallerySection}>
-        <div style={styles.sectionIntro}>
-          <p style={styles.kicker}>Canciones</p>
-          <h2 style={styles.sectionTitle}>
-  Una noche acústica.
-  <br />
-  Nueve momentos.
-  <br />
-  Nueve heridas.
-  <br />
-  Nueve canciones.
-</h2>canciones.
-</h2>
-        </div>
+      <div style={styles.sectionIntro}>
+        <p style={styles.kicker}>Canciones</p>
+        <h2 style={styles.sectionTitle}>
+          Una noche acústica.
+          <br />
+          Nueve momentos.
+          <br />
+          Nueve heridas.
+          <br />
+          Nueve canciones.
+        </h2>
+      </div>
 
-        <div style={styles.grid}>
-          {songs.map((song, index) => (
-            <button
-              key={index}
-              type="button"
-              onClick={() => setActiveSong(song)}
-              style={{ ...styles.card, padding: 0, border: 'none', cursor: 'pointer' }}
-            >
-              <div style={styles.imageWrap}>
-                <img src={song.image} alt={song.title} style={styles.image} />
-                <div style={styles.cardOverlay} />
-                <div style={styles.cardContent}>
-                  <p style={styles.cardKicker}>Canción {index + 1}</p>
-                  <h3 style={styles.cardTitle}>{song.title}</h3>
-                  <p style={styles.cardHint}>Click para ver la letra completa</p>
-                </div>
+      <div style={styles.grid}>
+        {songs.map((song, index) => (
+          <button
+            key={index}
+            type="button"
+            onClick={() => setActiveSong(song)}
+            style={{ ...styles.card, padding: 0, border: 'none', cursor: 'pointer' }}
+          >
+            <div style={styles.imageWrap}>
+              <img src={song.image} alt={song.title} style={styles.image} />
+              <div style={styles.cardOverlay} />
+              <div style={styles.cardContent}>
+                <p style={styles.cardKicker}>Canción {index + 1}</p>
+                <h3 style={styles.cardTitle}>{song.title}</h3>
+                <p style={styles.cardHint}>Click para ver la letra completa</p>
               </div>
-            </button>
-          ))}
+            </div>
+          </button>
+        ))}
+      </div>
+    </section>
+
+    <footer style={styles.footer}>
+      <h3 style={styles.footerTitle}>Pablo Navarro</h3>
+      <p style={styles.footerText}>canciones para quedarse un rato más</p>
+      <a
+        href="https://instagram.com/pabloezenav"
+        target="_blank"
+        rel="noreferrer"
+        style={styles.footerButton}
+      >
+        @pabloezenav
+      </a>
+    </footer>
+
+    {activeSong && (
+      <div style={styles.modalBackdrop} onClick={() => setActiveSong(null)}>
+        <div style={styles.modal} onClick={(e) => e.stopPropagation()}>
+          <button
+            type="button"
+            onClick={() => setActiveSong(null)}
+            style={styles.closeButton}
+            aria-label="Cerrar"
+          >
+            ×
+          </button>
+
+          <img src={activeSong.image} alt={activeSong.title} style={styles.modalImage} />
+          <p style={styles.modalKicker}>Canción completa</p>
+          <h3 style={styles.modalTitle}>{activeSong.title}</h3>
+          <p style={styles.modalLyric}>{activeSong.lyric}</p>
         </div>
-      </section>
-
-      <footer style={styles.footer}>
-        <h3 style={styles.footerTitle}>Pablo Navarro</h3>
-        <p style={styles.footerText}>canciones para quedarse un rato más</p>
-        <a
-          href="https://instagram.com/pabloezenav"
-          target="_blank"
-          rel="noreferrer"
-          style={styles.footerButton}
-        >
-          @pabloezenav
-        </a>
-      </footer>
-
-      {activeSong && (
-        <div style={styles.modalBackdrop} onClick={() => setActiveSong(null)}>
-          <div style={styles.modal} onClick={(e) => e.stopPropagation()}>
-            <button
-              type="button"
-              onClick={() => setActiveSong(null)}
-              style={styles.closeButton}
-              aria-label="Cerrar"
-            >
-              ×
-            </button>
-
-            <img src={activeSong.image} alt={activeSong.title} style={styles.modalImage} />
-            <p style={styles.modalKicker}>Canción completa</p>
-            <h3 style={styles.modalTitle}>{activeSong.title}</h3>
-            <p style={styles.modalLyric}>{activeSong.lyric}</p>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
+      </div>
+    )}
+  </div>
+)
 
 const globalStyles = `
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&family=Cormorant+Garamond:wght@300;400;500&display=swap');
+
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
 
-  body {
-    font-family: 'Cormorant Garamond', serif;
-    color: #f3f0ea;
-  }
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: #f3f0ea;
+}
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 `
 
 const styles = {
- iconLink: {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  width: '52px',
-  height: '52px',
-  borderRadius: '999px',
-  border: '1px solid rgba(255,255,255,0.08)',
-  background: 'rgba(255,255,255,0.03)',
-},
-  smallTitle: {
-  display: 'block',
-  fontSize: '0.38em',
-  letterSpacing: '0.25em',
-  marginBottom: '8px',
+  iconLink: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '52px',
+    height: '52px',
+    borderRadius: '999px',
+    border: '1px solid rgba(255,255,255,0.08)',
+    background: 'rgba(255,255,255,0.03)',
   },
   page: {
     minHeight: '100vh',
@@ -586,16 +579,6 @@ const styles = {
     color: '#f4efe8',
     textShadow: '0 8px 24px rgba(0,0,0,0.45)',
   },
-  heroMeta: {
-  marginTop: '28px',
-  display: 'grid',
-  gap: '6px',
-  fontFamily: 'Oswald, sans-serif',
-  letterSpacing: '0.32em',
-  textTransform: 'uppercase',
- fontSize: 'clamp(1.4rem, 2.2vw, 2rem)',
-  color: '#d7c9bb',
-},
   heroLinks: {
     marginTop: '34px',
     display: 'flex',
@@ -616,14 +599,14 @@ const styles = {
     textTransform: 'uppercase',
     color: '#d3564a',
   },
-value: {
-  fontFamily: '"Oswald", sans-serif',
-  fontWeight: 300,
-  letterSpacing: '0.09em',
-  fontSize: 'clamp(1.2rem, 1.9vw, 1.55rem)',
-  lineHeight: 1,
-  color: '#f1e6dc',
-},
+  value: {
+    fontFamily: '"Oswald", sans-serif',
+    fontWeight: 300,
+    letterSpacing: '0.09em',
+    fontSize: 'clamp(1.2rem, 1.9vw, 1.55rem)',
+    lineHeight: 1,
+    color: '#f1e6dc',
+  },
   gallerySection: {
     padding: 'clamp(26px, 5vw, 70px) clamp(18px, 4vw, 64px) 32px',
   },
@@ -640,13 +623,13 @@ value: {
     fontSize: '0.8rem',
   },
   sectionTitle: {
-  margin: 0,
-  fontSize: 'clamp(2.4rem, 5vw, 4.8rem)',
-  lineHeight: 1.08,
-  fontWeight: 400,
-  color: '#f6f1eb',
-  letterSpacing: '-0.01em',
-},
+    margin: 0,
+    fontSize: 'clamp(2.4rem, 5vw, 4.8rem)',
+    lineHeight: 1.08,
+    fontWeight: 400,
+    color: '#f6f1eb',
+    letterSpacing: '-0.01em',
+  },
   grid: {
     maxWidth: '1200px',
     margin: '0 auto',
