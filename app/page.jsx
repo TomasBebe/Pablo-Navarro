@@ -382,9 +382,8 @@ si amar es perderse entero, bendita sea la perdición`,
 </h1>
 
           <div style={styles.heroMeta}>
-            <p>22 de Mayo · 20:30 HS</p>
-            <p>Baum Lomas</p>
-          </div>
+  <p>Show acústico</p>
+</div>
 
           <div style={styles.heroLinks}>
             <a
@@ -548,15 +547,15 @@ const styles = {
     textShadow: '0 8px 24px rgba(0,0,0,0.45)',
   },
   heroMeta: {
-    marginTop: '28px',
-    display: 'grid',
-    gap: '6px',
-    fontFamily: 'Oswald, sans-serif',
-    letterSpacing: '0.22em',
-    textTransform: 'uppercase',
-    fontSize: 'clamp(0.85rem, 1.8vw, 1.05rem)',
-    color: '#dbd1c7',
-  },
+  marginTop: '28px',
+  display: 'grid',
+  gap: '6px',
+  fontFamily: 'Oswald, sans-serif',
+  letterSpacing: '0.18em',
+  textTransform: 'uppercase',
+  fontSize: 'clamp(1rem, 2vw, 1.4rem)',
+  color: '#d9cec2',
+},
   heroLinks: {
     marginTop: '34px',
     display: 'flex',
