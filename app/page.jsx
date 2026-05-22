@@ -545,13 +545,13 @@ const styles = {
     textShadow: '0 8px 24px rgba(0,0,0,0.45)',
   },
   heroMeta: {
-  marginTop: '26px',
+  marginTop: '28px',
   display: 'grid',
   gap: '6px',
   fontFamily: 'Oswald, sans-serif',
   letterSpacing: '0.32em',
   textTransform: 'uppercase',
-  fontSize: 'clamp(0.9rem, 1.5vw, 1.15rem)',
+ fontSize: 'clamp(1.4rem, 2.2vw, 2rem)',
   color: '#d7c9bb',
 },
   heroLinks: {
