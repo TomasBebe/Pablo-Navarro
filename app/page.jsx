@@ -11,7 +11,7 @@ export default function PabloNavarroLanding() {
   const songs = [
     {
       title: 'Corazón Partío',
-      image: '/foto7.jpeg',
+      image: '/foto9.jpeg',
       lyric:
         `Ya lo ves, que no hay dos sin tres
 Que la vida va y viene y que no se detiene
@@ -76,7 +76,7 @@ Delicioso como el dulce de leche.`,
   },
     {
       title: 'Tu Misterioso Alguien',
-      image: '/foto9.jpeg',
+      image: '/foto7.jpeg',
       lyric:
         `Hay alguien en tu vida que está transformándote
 Hay alguien que ha cambiado en ti la forma en que te ves
@@ -416,7 +416,9 @@ si amar es perderse entero, bendita sea la perdición`,
         <div style={styles.sectionIntro}>
           <p style={styles.kicker}>Canciones</p>
           <h2 style={styles.sectionTitle}>
-            Seis momentos. Seis heridas. Seis canciones.
+            Nueve momentos.
+            Nueve heridas.
+            Nueve canciones.
           </h2>
         </div>
 
