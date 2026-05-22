@@ -4,7 +4,7 @@
 import { useState } from 'react'
 
 export default function PabloNavarroLanding() {
-  const [act iveSong, setActiveSong] = useState(null)
+  const [activeSong, setActiveSong] = useState(null)
 
   const spotifyUrl = 'https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq'
 
