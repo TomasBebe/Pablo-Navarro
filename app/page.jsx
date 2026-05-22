@@ -379,9 +379,7 @@ si amar es perderse entero, bendita sea la perdición`,
   Navarro
 </h1>
 
-<div style={styles.heroMeta}>
-  <p>Show acústico</p>
-</div>
+<div style={styles.heroMeta}></div>
 
 <div style={styles.heroLinks}>
   <a
@@ -445,11 +443,14 @@ si amar es perderse entero, bendita sea la perdición`,
         <div style={styles.sectionIntro}>
           <p style={styles.kicker}>Canciones</p>
           <h2 style={styles.sectionTitle}>
+  Una noche acústica.
+  <br />
   Nueve momentos.
   <br />
   Nueve heridas.
   <br />
   Nueve canciones.
+</h2>canciones.
 </h2>
         </div>
 
@@ -641,12 +642,13 @@ value: {
     fontSize: '0.8rem',
   },
   sectionTitle: {
-    margin: 0,
-    fontSize: 'clamp(2.4rem, 5vw, 4.8rem)',
-    lineHeight: 1.05,
-    fontWeight: 400,
-    color: '#f6f1eb',
-  },
+  margin: 0,
+  fontSize: 'clamp(2.4rem, 5vw, 4.8rem)',
+  lineHeight: 1.08,
+  fontWeight: 400,
+  color: '#f6f1eb',
+  letterSpacing: '-0.01em',
+},
   grid: {
     maxWidth: '1200px',
     margin: '0 auto',
