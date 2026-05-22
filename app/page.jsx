@@ -432,23 +432,22 @@ return (
           <div style={styles.linkBlock}>
             <span style={styles.label}>Alias</span>
             <span style={styles.value}>pabloezenavarro.mp</span>
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section style={styles.gallerySection}>
+<section style={styles.gallerySection}>
       <div style={styles.sectionIntro}>
         <p style={styles.kicker}>Canciones</p>
-        <h2 style={styles.sectionTitle}>
-          Una noche acústica.
-          <br />
-          Nueve momentos.
-          <br />
-          Nueve heridas.
-          <br />
-          Nueve canciones.
-        </h2>
+       <h2 style={styles.sectionTitle}>
+  Una noche acústica.
+  <br />
+  Nueve momentos.
+  <br />
+  Nueve heridas.
+  <br />
+  Nueve canciones.
+</h2>
       </div>
 
       <div style={styles.grid}>
