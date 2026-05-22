@@ -379,69 +379,65 @@ si amar es perderse entero, bendita sea la perdición`,
   Navarro
 </h1>
 
-          <div style={styles.heroMeta}>
+<div style={styles.heroMeta}>
   <p>Show acústico</p>
 </div>
 
-          <div style={styles.heroLinks}>
-            <a
-  href="https://instagram.com/pabloezenav"
-  target="_blank"
-  rel="noreferrer"
-  style={styles.iconLink}
->
-  <svg
-    width="30"
-    height="30"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#f1e6dc"
-    strokeWidth="1.6"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    style={{ opacity: 0.9 }}
+<div style={styles.heroLinks}>
+  <a
+    href="https://instagram.com/pabloezenav"
+    target="_blank"
+    rel="noreferrer"
+    style={styles.iconLink}
+    aria-label="Instagram"
   >
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-    <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z"></path>
-    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-  </svg>
-</a>
+    <svg
+      width="30"
+      height="30"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#f1e6dc"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      style={{ opacity: 0.9 }}
+    >
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+      <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z"></path>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+    </svg>
+  </a>
 
-  <span style={styles.value}>@pabloezenav</span>
+  <a
+    href="https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq"
+    target="_blank"
+    rel="noreferrer"
+    style={styles.iconLink}
+    aria-label="Spotify"
+  >
+    <svg
+      width="30"
+      height="30"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#f1e6dc"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      style={{ opacity: 0.9 }}
+    >
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M8 15c2.5-1 5.5-.8 8 .5"></path>
+      <path d="M7 11.5c3-1 6.5-.8 10 1"></path>
+      <path d="M7 8.5c4-1.2 8.5-.8 12 1.5"></path>
+    </svg>
+  </a>
+
+  <div style={styles.linkBlock}>
+    <span style={styles.label}>Alias</span>
+    <span style={styles.value}>pabloezenavarro.mp</span>
+  </div>
 </div>
-            </a>
-
-            <a
-  href="https://open.spotify.com/artist/3UcC7SDy93ZMm2GqUfx1bq"
-  target="_blank"
-  rel="noreferrer"
-  style={styles.iconLink}
->
-  <svg
-    width="30"
-    height="30"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="#f1e6dc"
-    strokeWidth="1.6"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    style={{ opacity: 0.9 }}
-  >
-    <circle cx="12" cy="12" r="10"></circle>
-    <path d="M8 15c2.5-1 5.5-.8 8 .5"></path>
-    <path d="M7 11.5c3-1 6.5-.8 10 1"></path>
-    <path d="M7 8.5c4-1.2 8.5-.8 12 1.5"></path>
-  </svg>
-</a>
-
-            <div style={styles.linkBlock}>
-              <span style={styles.label}>Alias</span>
-              <span style={styles.value}>pabloezenavarro.mp</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section style={styles.gallerySection}>
         <div style={styles.sectionIntro}>
