@@ -607,7 +607,6 @@ value: {
     lineHeight: 1.05,
     fontWeight: 400,
     color: '#f6f1eb',
-    maxWidth: '14ch',
   },
   grid: {
     maxWidth: '1200px',
