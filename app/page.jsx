@@ -379,8 +379,6 @@ si amar es perderse entero, bendita sea la perdición`,
   Navarro
 </h1>
 
-<div style={styles.heroMeta}></div>
-
 <div style={styles.heroLinks}>
   <a
     href="https://instagram.com/pabloezenav"
@@ -436,10 +434,10 @@ si amar es perderse entero, bendita sea la perdición`,
     <span style={styles.value}>pabloezenavarro.mp</span>
   </div>
 </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section style={styles.gallerySection}>
+    <section style={styles.gallerySection}>
         <div style={styles.sectionIntro}>
           <p style={styles.kicker}>Canciones</p>
           <h2 style={styles.sectionTitle}>
