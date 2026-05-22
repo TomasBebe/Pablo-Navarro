@@ -391,7 +391,25 @@ si amar es perderse entero, bendita sea la perdición`,
               style={styles.linkBlock}
             >
               <span style={styles.label}>Instagram</span>
-              <span style={styles.value}>@pabloezenav</span>
+<div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#e8ddd2"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    style={{ opacity: 0.75 }}
+  >
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37a4 4 0 1 1-7.75 1.27 4 4 0 0 1 7.75-1.27z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+
+  <span style={styles.value}>@pabloezenav</span>
+</div>
             </a>
 
             <a
