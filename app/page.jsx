@@ -438,6 +438,8 @@ si amar es perderse entero, bendita sea la perdición`,
     <span style={styles.value}>pabloezenavarro.mp</span>
   </div>
 </div>
+        </div>
+      </section>
 
       <section style={styles.gallerySection}>
         <div style={styles.sectionIntro}>
